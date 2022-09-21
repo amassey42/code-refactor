@@ -16,6 +16,7 @@
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <!--fixed search-engine-optimization link from dead link by adding an id.-->
                 </li>
                 <li>
                     <a href="#online-reputation-management">Online Reputation Management</a>
@@ -30,7 +31,8 @@
     <!--changed div element to article element, and got rid of the class selector named "hero"-->
     <figure>
         <!--changed div element to figure element, and got rid of the class selector named "content"-->
-        <div class="search-engine-optimization">
+        <div id="search-engine-optimization" class="search-engine-optimization">
+            <!--added search-engine-optimization id so that the link was no longer a dead link.-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" class="float-left" />
             <!--Added alt attribute to the image to increase accessibility for visually impared-->
             <h2>Search Engine Optimization</h2>
@@ -96,7 +98,7 @@
 <!--GIVEN a webpage meets accessibility standards
 WHEN I view the source code
 THEN I find semantic HTML elements
-TODO:WHEN I view the structure of the HTML elements
+WHEN I view the structure of the HTML elements
 THEN I find that the elements follow a logical structure independent of styling and positioning
 WHEN I view the icon and image elements
 THEN I find accessible alt attributes
