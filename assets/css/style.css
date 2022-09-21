@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Changed class selector header into header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,10 +46,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 article {
     height: 800px;
     width: 100%;
@@ -58,7 +54,18 @@ article {
     background-size: cover;
     background-position: center;
 }
-
+/* Changed class selector hero into article element */
+figure {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Changed class selector content into figure element */
+/* Repositioned figure to above the class selectors .float-left and .float-right to be in secutential order */
+p {
+    font-size: 16px;
+}
+/*Moved the p selector under the figure element to make it in sequenctial order. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -67,12 +74,6 @@ article {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-figure {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 aside {
@@ -85,7 +86,7 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Changed class selector genefits into aside element */
 .benefit-lead, .benefit-cost, .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,7 +102,8 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* condesned all benefit-lead, benefit-brand, and benefit-cost classes together
+to reduce repetitiveness in the css style sheet. */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,14 +121,15 @@ aside {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* condensed all search-engine-optimization, online-reputation-management, and social-media-marketing classes together to decrease
+repetitiveness in the css style sheet. */ 
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Changed class selector footer into footer element */
 footer h2 {
     font-size: 20px;
 }
